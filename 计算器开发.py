@@ -6,7 +6,7 @@ class Calculator:
     def __init__(self, master):
         self.master = master
         master.title("Python 强哥计算器")
-        master.resizable(False, False)  # 禁止调整窗口大小
+        master.resizable(False, False)  # 禁止调整窗口大 小
 
         # 尝试设置应用程序图标（如果存在）
         try:
@@ -148,4 +148,5 @@ class Calculator:
 if __name__ == "__main__":
     root = tk.Tk()
     calc = Calculator(root)
+
     root.mainloop()
